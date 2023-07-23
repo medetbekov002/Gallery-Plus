@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="take_photo">Take photo</string>
+    <string name="date">Дата:</string>
+</resources>
