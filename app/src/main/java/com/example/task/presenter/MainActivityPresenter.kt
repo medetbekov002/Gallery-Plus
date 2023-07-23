@@ -15,11 +15,7 @@ import moxy.viewstate.strategy.StateStrategyType
 @StateStrategyType(OneExecutionStateStrategy::class)
 class MainActivityPresenter : MvpPresenter<MainActivityView>() {
 
-    private val dbHelper: PhotoDbHelper
-
-    init {
-        dbHelper = MyApplication.databaseHelper
-    }
+    private val dbHelper: PhotoDbHelper = MyApplication.databaseHelper
 
     fun loadPhotos() {
         viewState.showProgressbar()

@@ -10,6 +10,6 @@ class MyApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-            databaseHelper = PhotoDbHelper(this)
+        databaseHelper = PhotoDbHelper(this)
     }
 }
